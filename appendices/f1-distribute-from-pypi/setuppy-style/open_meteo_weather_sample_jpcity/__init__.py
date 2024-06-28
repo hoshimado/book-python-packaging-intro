@@ -4,6 +4,9 @@ from . import analyse_sample as analyse
 def get(location: str = "tokyo") -> dict:
     return forecast.get(location)
 
+def list_locations() -> list:
+    return forecast.list_locations()
+
 def apply(temperature_list: list) -> dict:
     return analyse.apply(temperature_list)
 

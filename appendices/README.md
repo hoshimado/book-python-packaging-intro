@@ -83,9 +83,18 @@ F.4節「配布パッケージをアップロードする」にしたがってPy
 
 
 
-## 付録G：
+## 付録G：PyPIへのアップロードをGitHub Actionsで自動化する（CI構築）
 
+FixMe: 作成中
 
+[g1-upload-pypi-on-github-actions](./g1-upload-pypi-on-github-actions/)
 
+```
+アップロード用の処理を@<list>{publiser-to-pypi-with-publiser}のように作成します。
+この例では、対象ブランチがmainならばPyPIリポジトリへ、それ以外ならばTestPyPIへアップロードを行う設定としています。
+なお、この時点では@<list>{publiser-to-pypi-with-publiser}の実行結果は、「Trusted Publiserではない」旨のエラーとなります。
+
+//list[publiser-to-pypi-with-publiser][Trusted Publiserを用いたアップロードのワークフロー]
+```
 
 

@@ -18,7 +18,7 @@ https://www.amazon.co.jp/dp/XXXXXX/
  * [付録D　配布パッケージ化をGitHub Actionsで自動化（CI構築）](/appendices/README.md#付録d配布パッケージ化をgithub-actionsで自動化するci-構築)
  * [付録E　Python配布パッケージをGitHubリポジトリで配布する方法](/appendices/README.md#付録epython配布パッケージをgithubリポジトリで配布する方法)
  * [付録F　Python配布パッケージをPyPIリポジトリで配布する方法](/appendices/README.md#付録fpython配布パッケージをpypiリポジトリで配布する方法)
- * [付録G　PyPIへのアップロードをGitHub Actionsで自動化する（CI構築）](/appendix/g-upload-pypi-on-github-actions)
+ * [付録G　PyPIへのアップロードをGitHub Actionsで自動化する（CI構築）](/appendices/README.md#付録gpypiへのアップロードをgithub-actionsで自動化するci構築)
 
 
 
