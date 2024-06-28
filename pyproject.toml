@@ -1,0 +1,24 @@
+[project]
+name = "weatherforecast" # パッケージ名を設定
+version = "0.0.1"        # PEP 440で指定された公式のバージョン表記で設定
+dependencies = [         # 必要な依存関係のパッケージを設定
+    "requests==2.31.0",
+]
+description = "sample packages by pure-toml as vsc-distribution" # パッケージの簡単な説明を記載
+authors = [
+    { name="Madokawa Hoshiki" },
+]
+# readme = "README.md"
+
+
+
+# パッケージ名を指定して実行された時の動作を指定
+[project.scripts]
+weatherforecast = "weatherforecast:main"
+
+
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
