@@ -17,6 +17,10 @@ authors = [
 weatherforecast = "weatherforecast:main"
 
 
+# パッケージ関連以外のフォルダーも存在するため、パッケージ関連フォルダーを明示的に指定
+[tool.setuptools]
+packages = ["weatherforecast"]
+
 
 [build-system]
 requires = ["setuptools", "wheel"]
