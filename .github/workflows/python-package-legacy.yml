@@ -4,9 +4,8 @@
 name: Python package by Legacy setup.py
 
 on:
-  # 一旦、実質無効化
-  workflow_dispatch:
-  # push:
+  push:
+    branches: [ "feature/create-sample-for-appendix" ]
   #   branches: [ "main" ]
   # pull_request:
   #   branches: [ "main" ]

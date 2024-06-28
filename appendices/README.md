@@ -34,4 +34,6 @@
 
 ## D：配布パッケージ化をGitHub Actionsで自動化する（CI 構築）
 
+本節で案内のワークフローファイルは、以下を参照ください。
 
+* [リストD.1：setup.pyを用いた配布パッケージの作成のワークフロー](../.github/workflows/python-package-legacy.yml)
