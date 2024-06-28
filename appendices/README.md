@@ -52,5 +52,15 @@
 
 ## 付録E：Python配布パッケージをGitHubリポジトリで配布する方法
 
+「リストE.1：Publicリポジトリからpipコマンドでインストールする」を、
+本リポジトリ（Public設定）のルートに配置してある「[pyproject.toml](../pyproject.toml)」に対して
+適用すると、具体的なコマンドは以下となります。
 
+```
+python -m pip install git+https://github.com/hoshimado/book-python-packaging-intro.git
+```
+
+
+
+## 付録F：
 
