@@ -62,5 +62,30 @@ python -m pip install git+https://github.com/hoshimado/book-python-packaging-int
 
 
 
-## 付録F：
+## 付録F：Python配布パッケージをPyPIリポジトリで配布する方法
+
+F.1節「配布パッケージを、PyPI公開用に整える」に記載の手順を実施した結果のサンプルコードは、以下を参照ください。
+
+* [setup()関数による配布パッケージ、の場合](./f1-distribute-from-pypi/setuppy-style/)
+    * 以下の変更を反映済みのものとなります
+        * リストF.5
+        * リストF.7
+        * リストF.9
+* [buildコマンドによる配布パッケージ、の場合](./f1-distribute-from-pypi/pytoml-style/)
+    * 以下の変更を反映済みのものとなります
+        * リストF.6
+        * リストF.8
+        * リストF.10
+
+F.4節「配布パッケージをアップロードする」にしたがってPyPIへアップロードしたものは以下で参照できます（※実際のアップロードファイルでは、README.mdへの更新履歴などに差分があります）。
+
+* https://pypi.org/project/open-meteo-weather-sample-jpcity/
+
+
+
+## 付録G：
+
+
+
+
 
