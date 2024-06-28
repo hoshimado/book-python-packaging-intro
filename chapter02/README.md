@@ -1,28 +1,55 @@
 # 第２章　配布パッケージの作成手順
 
+
+## 各節に共通する事前準備
+
+本サンプルコードをWindowsで実施する場合は、そのコマンドラインの開始時に次のコマンドを実行し、一時的にPython.exeへパスを通してから開始してください。
+
+```
+set PATH=%PATH%;%USERPROFILE%\AppData\Local\Programs\Python\Python311
+```
+
+
+
+## 2.2節と2.3節に共通する事前準備
+
+初回実行時には、対象フォルダー直下でコマンドラインから次のコマンドを実行して仮想環境を作成してください。
+
+```
+python -m venv .venv 
+```
+
+2回目以降は、次のコマンドで作成済みの仮想環境に入ってください。
+
+
+Windowsの場合：
+```
+.venv\Scripts\activate
+```
+
+Linuxの場合：
+```
+source .venv/bin/activate
+```
+
+
+
 ## 2.2節　解説に用いるサンプルパッケージの構成
 
 [section2-2](./section2-2)
 
-## 2.2節　Vue の表⽰状態をテストする
 
-[section2-2, テストRed状態](./section2-2-1red)
 
-[section2-2, テストGreen状態](./section2-2-2green)
+## 2.3節　作成時の依存関係の管理にpipを用いるケース
 
-## 2.3節　リファクタリングしてファイルを分割する
+[section2-3-3, Setup() 関数による配布パッケージの作成](./section2-3-3)
 
-[section2-3](./section2-3)
+[section2-3-4, buildコマンドによる配布パッケージの作成](./section2-3-4)
 
-## 2.4節　javascriptファイルのみを直接にMochaでテストする
 
-[section2-4, テストRed状態](./section2-4-1red)
 
-[section2-4, テストGreen状態](./section2-4-2green)
+## 2.4節　作成時の依存関係の管理にpoetryを用いるケース
 
-## 2.5節　sinon.jsによるスタブをMochaから利用する
+[section2-4](./section2-4)
 
-[section2-5, テストRed状態](./section2-5-1red)
-
-[section2-5, テストGreen状態](./section2-5-2green)
 
