@@ -4,11 +4,11 @@
 
 本節で案内の手順を終えたサンプルコードです。
 「リストC.5：Pyarmorで難読化したのちにpoetryで配布パッケージを作成する」のファイルは、
-「[build_whl_with_pyarmor.sh](./build_whl_with_pyarmor.sh)」を参照ください。
+「[build_whl_by_poetry_with_pyarmor.sh](./build_whl_by_poetry_with_pyarmor.sh)」を参照ください。
 
 シェルスクリプトとして作成しているので、「付録B：本書で利用するPython環境のインストール方法」で案内しているLinuxのDocker環境で実行するか、同様のLinux環境で実行してください。
 
-「build_whl_with_pyarmor.sh」を実行後、`./dist` フォルダー配下に `weatherforecast-0.1.0-py3-none-any.whl` が作成されます。このWheelファイルを展開して、パッケージ内のソースコード（例えば`open_meteo_forecast_api.py`）が難読化されていることを確認ください。
+「build_whl_by_poetry_with_pyarmor.sh」を実行後、`./dist` フォルダー配下に `weatherforecast-0.1.0-py3-none-any.whl` が作成されます。このWheelファイルを展開して、パッケージ内のソースコード（例えば`open_meteo_forecast_api.py`）が難読化されていることを確認ください。
 
 この難読化を実施したWheelファイルを、インストールして利用する分には通常の配布パッケージと同様に利用できることを確認するコマンド例は以下です。第3章で案内した「[パッケージの動作確認](../../chapter03/README.md)」に沿い、Wheelファイルをインストール前はパッケージを実行できないことを確認した後に、Wheelファイルをインストールするとパッケージを実行できることを確認する手順となります。
 

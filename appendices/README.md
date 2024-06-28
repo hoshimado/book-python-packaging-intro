@@ -32,8 +32,25 @@
 
 
 
-## D：配布パッケージ化をGitHub Actionsで自動化する（CI 構築）
+## 付録D：配布パッケージ化をGitHub Actionsで自動化する（CI 構築）
 
 本節で案内のワークフローファイルは、以下を参照ください。
 
 * [リストD.1：setup.pyを用いた配布パッケージの作成のワークフロー](../.github/workflows/python-package-legacy.yml)
+    * [section2-3-3](../chapter02/section2-3-3/)に格納してあるファイルに対して実施
+* [リストD.2：poetryを用いた配布パッケージの作成のワークフロー](../.github/workflows/python-package-poetry.yml)
+    * [section2-4](../chapter02/section2-4/)に格納してあるファイルに対して実施
+* [リストD.3：poetryを用いた配布パッケージの作成を、難読化込みで実施するワークフロー](../.github/workflows/python-package-poetry-with-pyarmor.yml)
+    * [C.3：poetryコマンドによる配布パッケージの作成手順](./c3-obfuscate-poetry/)に格納してあるファイルに対して実施
+
+いずれのワークフローも、変数「`TARGET_DIR`」を用いて対象のサブフォルダー内のパッケージ構成ファイルに対して配布パッケージ作成を行う構成としています。対象のパッケージをルートフォルダーに置いている場合は「`TARGET_DIR: .`」のように修正してください。
+
+なお、それぞれのワークフローにより自動作成された配布パッケージの具体例を、本リポジトリーの「[Actionsタブ](https://github.com/hoshimado/book-python-packaging-intro/actions)」から参照できます。
+
+
+
+
+## 付録E：Python配布パッケージをGitHubリポジトリで配布する方法
+
+
+
