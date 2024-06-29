@@ -85,16 +85,13 @@ F.4節「配布パッケージをアップロードする」にしたがってPy
 
 ## 付録G：PyPIへのアップロードをGitHub Actionsで自動化する（CI構築）
 
-FixMe: 作成中
+「リストG.1：Trusted Publiserを用いたアップロードのワークフロー」のサンプルコードは以下です。
+「[リストD.1：setup.pyを用いた配布パッケージの作成のワークフロー](../.github/workflows/python-package-legacy.yml)」に相当する`build`ジョブに続けて、アップロード用の`publish-to-pypi`ジョブを追加しています。
 
-[g1-upload-pypi-on-github-actions](./g1-upload-pypi-on-github-actions/)
+* [publish-distribution-to-pypi.yml](./g1-upload-pypi-on-github-actions/publish-distribution-to-pypi.yml)
+    * mainブランチへのpushをトリガーとして、PyPIへアップロードします
+* [publish-distribution-to-test-pypi.yml](./g1-upload-pypi-on-github-actions/publish-distribution-to-test-pypi.yml)
+    * main以外のブランチへのpushをトリガーとして、testPyPIへアップロードします
 
-```
-アップロード用の処理を@<list>{publiser-to-pypi-with-publiser}のように作成します。
-この例では、対象ブランチがmainならばPyPIリポジトリへ、それ以外ならばTestPyPIへアップロードを行う設定としています。
-なお、この時点では@<list>{publiser-to-pypi-with-publiser}の実行結果は、「Trusted Publiserではない」旨のエラーとなります。
-
-//list[publiser-to-pypi-with-publiser][Trusted Publiserを用いたアップロードのワークフロー]
-```
-
+なお、「リストD.1」と比較して、「ルートに配置したパッケージフォルダーを前提とし、pytestによる単体テストを追加実施（し、成功したときのみアップロードに進む）」など差分がありますので留意ください。
 
