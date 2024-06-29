@@ -13,12 +13,12 @@ https://www.amazon.co.jp/dp/XXXXXX/
  * [第２章　配布パッケージの作成手順](/chapter02)
  * [第３章　配布パッケージの配布方法とインストール動作方法](/chapter03)
  * 付録A　Pythonにおけるパッケージとは？（※サンプルコードはありません）
- * [付録B　本書で利用するPython環境のインストール方法](/appendix/b-install-python3-on-windows)
- * [付録C　パッケージ化の前にソース難読化を実施（Pyarmor）](/appendix/c-obfuscate)
- * [付録D　配布パッケージ化をGitHub Actionsで自動化（CI構築）](/appendix/d-build-on-github-actions)
- * [付録E　Python配布パッケージをGitHubリポジトリで配布する方法](/appendix/e-distribute-from-github)
- * [付録F　Python配布パッケージをPyPIリポジトリで配布する方法](/appendix/f-distribute-from-pypi)
- * [付録G　PyPIへのアップロードをGitHub Actionsで自動化する（CI構築）](/appendix/g-upload-pypi-on-github-actions)
+ * [付録B　本書で利用するPython環境のインストール方法](/appendices/README.md#付録b本書で利用するpython環境のインストール方法)
+ * [付録C　パッケージ化の前にソース難読化を実施（Pyarmor）](/appendices/README.md#付録cパッケージ化の前にソース難読化を実施するpyarmor)
+ * [付録D　配布パッケージ化をGitHub Actionsで自動化（CI構築）](/appendices/README.md#付録d配布パッケージ化をgithub-actionsで自動化するci-構築)
+ * [付録E　Python配布パッケージをGitHubリポジトリで配布する方法](/appendices/README.md#付録epython配布パッケージをgithubリポジトリで配布する方法)
+ * [付録F　Python配布パッケージをPyPIリポジトリで配布する方法](/appendices/README.md#付録fpython配布パッケージをpypiリポジトリで配布する方法)
+ * [付録G　PyPIへのアップロードをGitHub Actionsで自動化する（CI構築）](/appendices/README.md#付録gpypiへのアップロードをgithub-actionsで自動化するci構築)
 
 
 
