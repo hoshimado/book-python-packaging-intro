@@ -2,7 +2,7 @@
 
 「初めてのPython配布パッケージ作成」本で利用するサンプルコードです。 
 
-https://www.amazon.co.jp/dp/XXXXXX/
+https://nextpublishing.jp/book/17870.html
 
 
 ## 章の目次
