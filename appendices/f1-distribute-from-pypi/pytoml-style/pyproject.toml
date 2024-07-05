@@ -1,0 +1,26 @@
+[project]
+name = "open-meteo-weather-sample-jpcity" # パッケージ名を設定
+version = "0.0.1"        # PEP 440で指定された公式のバージョン表記で設定
+dependencies = [         # 必要な依存関係のパッケージを設定
+    "numpy==1.26.0",
+    "requests==2.31.0",
+]
+description = "sample distribution-packages by pure-toml" # パッケージの簡単な説明を記載
+readme = "README.md"
+license = {file = "LICENSE.txt"}
+authors = [
+    {name = "Madokawa Hoshiki"}
+]
+
+
+
+# パッケージ名を指定して実行された時の動作を指定
+[project.scripts]
+weatherforecast = "open_meteo_weather_sample_jpcity:main"
+
+
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
