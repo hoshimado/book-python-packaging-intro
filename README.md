@@ -25,11 +25,11 @@ https://nextpublishing.jp/book/17870.html
 
 ## サンプルコードの取得方法
 
-「Cloneで取得する」に慣れている方は、Cloneして取得してください。
+「Cloneで取得する」もしくは「Templateとして取得する」に慣れている方は、"Clone"もしくは"Use this template"を利用して取得してください。
 
-「Clone」という言葉に馴染みのない方は、次のようにして取得してください。
+これらの言葉に馴染みのない方は、次のようにして取得してください。
 
-1. このページの右側にある「clone or download」をクリックする。
+1. このページの上部右側にある「Code」をクリックする。
 2. 表示されるプルダウンメニューの「Download ZIP」をクリックする。
 3. 取得したZipを展開する。→「book-python-packaging-intro」フォルダが見える。
 4. 配下の「chapter02」「chapter03」、、、のフォルダにそれぞれの章に利用するサンプルコードがあるので参照する。
