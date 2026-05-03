@@ -52,7 +52,7 @@ jobs:
       working-directory: ${{env.TARGET_DIR}}
 
     - name: Upload the whl-file to artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with: 
         name: poetry-pyarmor-wheel-py${{ matrix.python-version }}
         path: ${{env.TARGET_DIR}}/dist/*
